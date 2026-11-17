@@ -1,0 +1,56 @@
+% 发稿评估说明（P0 产出）模板。编译：xelatex eval_report.tex（需 ctex 与 Noto CJK 等中文字体）
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{booktabs,tabularx,xltabular,array,enumitem}
+\pagestyle{plain}
+\setCJKmainfont{Noto Serif CJK SC}\setCJKsansfont{Noto Sans CJK SC}
+\ctexset{section={format=\large\bfseries\sffamily,name={,、},number=\chinese{section}}}
+\renewcommand{\arraystretch}{1.3}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\title{\sffamily 稿件发稿评估说明}
+\author{}
+\date{评估稿件：《【题目】》\quad 评估日期：【YYYY年M月D日】}
+\begin{document}\maketitle\vspace{-1.5em}
+
+\section{稿件基本情况}
+\begin{tabularx}{\linewidth}{lY}\toprule
+题目 & 【题目及字数】\\
+作者 & 【作者、身份】\\
+篇幅 & 【全文字符/汉字数；正文段落数；参考文献条数】\\
+类型 & 【实证/理论/教学设计/综述……】\\
+目标 & 【期刊级别或具体期刊】\\
+\bottomrule\end{tabularx}
+
+\section{总体结论}
+\textbf{【是否达到发稿标准；能否通过修改达到】}
+
+【一段话说明优点与主要问题集中在哪几方面。】
+
+\section{问题清单}
+\subsection*{（一）必须修改}
+\begin{xltabular}{\linewidth}{@{}c>{\raggedright\arraybackslash}p{2.6cm}Y@{}}\toprule
+序号 & 问题 & 说明与修改建议（引用原句，给出依据）\\\midrule\endhead
+1 & 【 】 & 【 】\\
+\bottomrule\end{xltabular}
+
+\subsection*{（二）建议修改}
+\begin{xltabular}{\linewidth}{@{}c>{\raggedright\arraybackslash}p{2.6cm}Y@{}}\toprule
+序号 & 问题 & 说明与修改建议\\\midrule\endhead
+1 & 【 】 & 【 】\\
+\bottomrule\end{xltabular}
+
+\section{修改方案与工作量}
+\begin{itemize}
+\item 规范性修改：【 】
+\item 语言修改：【 】
+\item 内容充实：【须作者提供的真实材料】
+\end{itemize}
+
+\section{投稿与费用说明}
+版面费由期刊确定，以录用通知为准，直接付给期刊对公账户。本工作流不提供“包发表”或“改稿加发表”服务；投稿须由作者本人通过期刊官方渠道完成。
+
+\section{需要作者提供的材料}
+\begin{itemize}
+\item 作者信息；基金项目（如有）；真实的教学/实验/调查材料（如需补充）；意向期刊（如有）。
+\end{itemize}
+\end{document}

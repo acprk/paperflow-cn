@@ -1,0 +1,9 @@
+build/
+__pycache__/
+*.pyc
+*.aux
+*.log
+*.out
+# 私人敏感词表、真实稿件与作者信息不要提交
+sensitive_words.txt
+private/
